@@ -28,7 +28,7 @@
     "@nestjs/core": "^7.5.15",
     "@nestjs/platform-express": "^7.0.0",
     "@nestjs/swagger": "^4.8.0",
-    "@nestjs/typeorm": "7.1.5",
+    "@nestjs/typeorm": "^7.1.5",
     "class-transformer": "^0.4.0",
     "class-validator": "^0.13.1",
     "dayjs": "^1.10.5",
@@ -39,8 +39,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.4",
     "swagger-ui-express": "^4.1.6",
-    "typeorm": "0.2.30",
-    "winston": "3.3.3"
+    "typeorm": "^0.2.30"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.0.0",
