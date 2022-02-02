@@ -1,8 +1,8 @@
 {
-  "name": "smp-app-api",
+  "name": "demo-app-api",
   "version": "1.0.0",
-  "description": "Smart Pole System API",
-  "author": "banpudev",
+  "description": "Demo System API",
+  "author": "sandbox",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
