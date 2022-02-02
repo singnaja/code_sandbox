@@ -2,7 +2,6 @@ import { Controller, Get, Logger } from '@nestjs/common';
 import { ApiOperation } from '@nestjs/swagger';
 import { AppService } from './app.service';
 import { ApiTags } from '@nestjs/swagger';
-import { ResponseDTO } from './dtos/response.dto';
 
 @ApiTags("Info")
 @Controller()

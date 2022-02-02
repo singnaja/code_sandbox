@@ -1,7 +1,7 @@
 
 
 import { AppModule } from './app.module';
-import { Body, ValidationPipe } from "@nestjs/common";
+import { ValidationPipe } from "@nestjs/common";
 import { ConfigService } from '@nestjs/config';
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
@@ -17,7 +17,7 @@ async function bootstrap() {
   app.use(json({ limit: '50mb' }));
   app.use(urlencoded({ extended: true, limit: '50mb' }));
   app.enableCors();
-  app.setGlobalPrefix('v1'); 
+  //app.setGlobalPrefix('v1'); 
   // Swagger
   const options = new DocumentBuilder()
     .setTitle("demo-app-api")
